@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+}
+
+button {
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 1rem;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 12rem;
+}
+
+h3 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.container {
+    margin: 1rem;
+}
+
+.container > button {
+    margin-bottom: 1rem;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+    background: black;
+  }
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
