@@ -58,6 +58,8 @@ function handleClearScore() {
     {document.getElementById("stopGame").style.display="block";}
     {document.getElementById("scoreOneMinus").style.display="block";}
     {document.getElementById("scoreTwoMinus").style.display="block";}
+    document.getElementById("scoreOneMinus").disabled = true;
+    document.getElementById("scoreTwoMinus").disabled = true;
 }
 
 // 6. Remove team1 score
